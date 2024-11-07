@@ -89,7 +89,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("https://wallpaperaccess.com/full/3053365.jpg");
+  background-image: url("https://th.bing.com/th/id/OIP.-0GyyUwsUXY0NVBl1otxbwAAAA?dpr=1.3&pid=ImgDetMain");
   background-repeat: no-repeat;
   z-index: -1;
   filter: blur(5px);
@@ -618,7 +618,7 @@ body {
 
 @media (width <=640px) {
   .container::before {
-    background-image: url("https://wallpaperaccess.com/full/3053365.jpg");
+    background-image: url("https://th.bing.com/th/id/OIP.-0GyyUwsUXY0NVBl1otxbwAAAA?dpr=1.3&pid=ImgDetMain");
     margin: -2px;
     filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.5);
