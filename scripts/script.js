@@ -108,12 +108,12 @@ function updateStatus(lanyardData) {
 		const small_image = activities[0]?.small_image;
 	if (small_image?.id) {
 		// Sử dụng emoji có ID
-		elements.customStatusApplication.src = `https://cdn.discordapp.com/app-assets/${application_id.id}/${small_image.id}.png`;
+		elements.customStatusEmoji.src = `https://cdn.discordapp.com/app-assets/${application_id.id}/${small_image.id}.png`;
 	} else if (small_text?.name) {
 		// Nếu không có ID, sử dụng hình ảnh mặc định
-		elements.customStatusApplication.src = "https://kirka-io-team.github.io/card/public/icons/poppy.png";
+		elements.customStatusEmoji.src = "https://kirka-io-team.github.io/card/public/icons/poppy.png";
 	} else {
-		elements.customStatusApplication.style.display = "none";
+		elements.customStatusEmoji.style.display = "none";
 	}
 
 	// Hiển thị hoặc ẩn custom status
